@@ -1,0 +1,14 @@
+aiogram==3.31.0
+openai==3.29.0
+python-dotenv==1.2.4
+aiosqlite
+python-docx
+Pillow
+Flask
+flask-cors
+openai
+python-dotenv
+num2words
+aiomax
+requests
+gunicorn
