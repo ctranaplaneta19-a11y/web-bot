@@ -5,7 +5,7 @@ meta:
     version: "3.12"
 
 build:
-  requirementsPath: requirements.txt
+  requirementsPath: web-bot/requirements.txt
 
 run:
-  command: gunicorn --bind 0.0.0.0:80 web_bot:app
+  command: gunicorn --bind 0.0.0.0:80 web-bot.web_bot:app
